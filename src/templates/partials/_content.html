@@ -1,0 +1,221 @@
+<!-- begin main -->
+<div class="main">
+	<div class="main__col-wrapp">
+		<div class="main__col-padd">
+			<div class="main__col">
+				<div class="features">
+					<div class="features__top">
+						<div class="features__title">
+							<h2 class="h2">Collections</h2>
+						</div>
+						<div class="features__link">
+							<a href="#" class="h3">Top level collections</a>
+						</div>
+					</div>
+					<div class="features__icon">
+						<a href="#">{{mixins.icon('buffer')}}</a>
+					</div>
+					<div class="features__info">
+						<ul class="list">
+							{% for items in list %}
+							<li class="list__item">
+								<a href="#" class="list__title h4 h4_big">{{items.titles}}</a>
+								<a href="#" class="list__info h5">{{items.info}}</a>
+							</li>
+							{% endfor %}
+						</ul>
+						<div class="features__button">
+							<a href="#" class="btn">See More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="main__col-wrapp">
+		<div class="main__col-padd">
+			<div class="main__col">
+				<div class="features">
+					<div class="features__top">
+						<div class="features__title">
+							<h2 class="h2">Other Links</h2>
+						</div>
+
+						<div class="features__link">
+							<a href="#" class="h3">Links to other content</a>
+						</div>
+					</div>
+					<div class="features__icon">
+						<a href="#">{{mixins.icon('link')}}</a>
+
+					</div>
+					<div class="features__info">
+						<ul class="list">
+							{% for items in list2 %}
+							<li class="list__item">
+								<a href="#" class="list__title h4 h4_big">{{items.titles}}</a>
+								<a href="#" class="list__info h5">{{items.info}}</a>
+							</li>
+							{% endfor %}
+						</ul>
+						<div class="features__button">
+							<a href="#" class="btn">See More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="main__col-wrapp layout">
+		<div class="getting-started">
+			<div class="main__col">
+				<div class="getting-started__content">
+					<div class="getting-started__icon">
+						<a href="#">{{mixins.icon('paperplane')}}</a>
+					</div>
+					<div class="getting-started__title">
+						<h2 class="h2 h2_color">Getting Started</h2>
+						<a href="#" class="h3 h3_color-white">Not sure what to do?</a>
+					</div>
+					<a href="#" class="btn btn_color">Take a Tutorial</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="layout__slider">
+			<div class="slider">
+				<div class="slider__prev">{{mixins.icon('arrowl')}}</div>
+				<div class="slider__next">{{mixins.icon('arrowr')}}</div>
+				<div class="slider__slide js-gallery">
+					<div class="event">
+						<div class="main__col">
+							<div class="event__content">
+								<div class="event__top">
+									<div class="event__photo">
+										<img src="img/photo.png" alt="photo"></div>
+									<div class="event__contact">
+										<div class="event__place">
+											<h2 class="h2 h2_small">BritishMonarchy</h2>
+										</div>
+										<div class="event__email">
+											<h3 class="h3 h3_color-blue">@BritishMonarchy</h3>
+										</div>
+									</div>
+									<div class="event__icon">
+										<a href="#">{{mixins.icon('speech')}}</a>
+									</div>
+								</div>
+								<div class="event__description">
+									<p>
+										It is a pleasure to open the Information Age exhibition today at the @ScienceMuseum and I hope people will enjoy visiting.
+									</p>
+								</div>
+								<div class="event__bottom">
+									<div class="event__soc-icon">
+										<a href="#">{{mixins.icon('twitter')}}</a>
+									</div>
+									<div class="event__date">
+										<h3 class="h3 h3_color-grey">1:35 PM - 24 Oct 2014</h3>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="event">
+						<div class="main__col">
+							<div class="event__content">
+								<div class="event__top">
+									<div class="event__photo">
+										<img src="img/photo.png" alt="photo"></div>
+									<div class="event__contact">
+										<div class="event__place">
+											<h2 class="h2 h2_small">BritishMonarchy</h2>
+										</div>
+										<div class="event__email">
+											<h3 class="h3 h3_color-blue">@BritishMonarchy</h3>
+										</div>
+									</div>
+									<div class="event__icon">
+										<a href="#">{{mixins.icon('speech')}}</a>
+									</div>
+								</div>
+								<div class="event__description">
+									<p>
+										It is a pleasure to open the Information Age exhibition today at the @ScienceMuseum and I hope people will enjoy visiting.
+									</p>
+								</div>
+								<div class="event__bottom">
+									<div class="event__soc-icon">
+										<a href="#">{{mixins.icon('twitter')}}</a>
+									</div>
+									<div class="event__date">
+										<h3 class="h3 h3_color-grey">1:35 PM - 24 Oct 2014</h3>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main__col">
+			<div class="layout__features">
+				<div class="features">
+					<div class="features__title">
+						<h2 class="h2">Communities</h2>
+					</div>
+
+					<div class="features__link">
+						<a href="#" class="h3">Explore our community areas</a>
+					</div>
+					<div class="features__icon">
+						<a href="#">{{mixins.icon('share')}}</a>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="layout__workspaces">
+				<div class="workspaces">
+					<div class="workspaces__icon">
+						<a href="#">{{mixins.icon('workspace')}}</a>
+					</div>
+					<div class="workspaces__title">
+						<h2 class="h2 h2_s">Workspaces</h2>
+					</div>
+				</div>
+			</div>
+			<div class="layout__list">
+				<ul class="list">
+					<li class="list__item">
+						<a href="#" class="list__title h4 h4_big">Duracell Inc</a>
+						<a href="#" class="list__info h5">
+							PM, Eng & SQA document share and test file locations for Cogniance engagement
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="layout__more">
+				<div class="more">
+					<div class="more__item">
+						<div class="more__link">
+							<h2 class="h2 h2_s">Wiki</h2>
+						</div>
+						<div class="more__button">
+							<a href="#" class="btn">See More</a>
+						</div>
+					</div>
+					<div class="more__item">
+						<div class="more__link">
+							<h2 class="h2 h2_s">Weblogs</h2>
+						</div>
+						<div class="more__button">
+							<a href="#" class="btn">See More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end main -->
